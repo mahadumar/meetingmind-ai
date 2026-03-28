@@ -1,8 +1,19 @@
-# Environment files - NEVER commit these
+# Virtual environments
+.venv/
+backend/venv/
+frontend/node_modules/
+frontend/.next/
+
+# Environment files
 frontend/.env.local
 frontend/.env
 backend/.env
-backend/venv/
+
+# Python cache
 backend/__pycache__/
+**/__pycache__/
+*.pyc
+
+# OS files
 .DS_Store
-node_modules/
+Thumbs.db
